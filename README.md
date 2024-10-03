@@ -10,9 +10,13 @@ GrowMate is an Android application designed to assist plant enthusiasts in manag
 
 ## Screenshots
 
-| Splash Screen |  Welcome Screen | Login Screen | Signup Screen | Main Screen |
-| ------------- | ------------ | ------------- | ----------- |
-| ![Splash Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SplashScreen.png) | ![Welcome Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/WelcomScreen.png) | ![Login Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/LoginScreen.png) | ![Signup Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SignUp.png) | ![Main Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/Main%20Screen.png) |
+| <img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SplashScreen.png" alt="Splash Screen" width="300"/> | 
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/WelcomScreen.png" alt="Welcome Screen" width="300"/> | 
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/LoginScreen.png" alt="Login Screen" width="300"/> |
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SignUp.png" alt="Signup Screen" width="300"/> |
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/Main%20Screen.png" alt="Main Screen" width="300"/> |
+|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
+|                         *Splash Screen*                      |                         *Welcome Screen*                      |                         *Login Screen*                      |                         *Signup Screen*                      |                         *Main Screen*                      |
 ## Installation
 1. Clone the repository:
    ```bash
