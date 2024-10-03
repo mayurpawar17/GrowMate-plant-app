@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screen.welcomeScreen">
+
+
+    <ImageView
+        android:layout_width="128.dp"
+        android:layout_height="128.dp"
+        android:layout_marginTop="180.dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pllogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="GrowMate"
+        android:layout_gravity="center"
+        android:textSize="25.sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="180.dp"
+        android:textStyle="bold" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardMaxElevation="12dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_shape"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slogan"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:layout_marginStart="30dp"
+                    android:textSize="20sp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="60dp"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/inBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textStyle="bold"
+                        android:textSize="20.sp"
+                        android:text="Sign in"/>
+
+                    <Space
+                        android:layout_width="80.dp"
+                        android:layout_height="0.dp"/>
+
+                    <Button
+                        android:id="@+id/upBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/black"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textStyle="bold"
+                        android:textSize="20.sp"
+                        android:text="Sign up"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>

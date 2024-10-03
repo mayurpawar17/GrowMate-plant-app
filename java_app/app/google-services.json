@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "886719327427",
+    "project_id": "login-register-pages-6abfc",
+    "storage_bucket": "login-register-pages-6abfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886719327427:android:460f44b8525e472a5c4676",
+        "android_client_info": {
+          "package_name": "com.example.java_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLSbastCpIS_h1SCg3z__uD3kUAZW1XDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

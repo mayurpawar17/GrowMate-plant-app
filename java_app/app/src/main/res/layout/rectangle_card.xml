@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="@color/white"
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="130.dp"
+            android:layout_height="150.dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/snake" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/green2"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Snake plant"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Indoor"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:text="The snake plant, also known as Sansevieria or mother-in-law's tongue, is a hardy, low-maintenance plant with long, upright, sword-shaped leaves that are typically green with yellow or white edges."/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+        
+
+</androidx.cardview.widget.CardView>

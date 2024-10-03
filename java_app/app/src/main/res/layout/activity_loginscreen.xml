@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@color/white"
+    tools:context=".screen.loginScreen">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_marginTop="15.dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/back"
+            android:src="@drawable/back"
+            android:backgroundTint="@color/white"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <ImageView
+        android:layout_width="100.dp"
+        android:layout_height="100.dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/pllogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="20.dp"
+        android:layout_marginStart="30dp"
+        android:textSize="35.sp"
+        android:textStyle="bold"
+        android:textColor="@color/green2"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/hi_there" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:textSize="15.sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/welcome_back" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30.dp"
+        android:layout_marginTop="40.dp"
+        android:textSize="18.sp"
+        android:textColor="@color/black"
+        android:text="@string/email"/>
+
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30.dp"
+            android:layout_marginBottom="10.dp"
+            android:layout_marginEnd="30.dp"
+            android:inputType="text"
+            android:hint="example@gmail.com"
+            android:padding="12dp"
+            android:paddingStart="5dp"
+            android:textSize="16sp" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30.dp"
+        android:textSize="18.sp"
+        android:textColor="@color/black"
+        android:text="Password"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30.dp"
+        android:layout_marginBottom="10.dp"
+        android:layout_marginEnd="30.dp"
+        android:paddingStart="5dp"
+        android:inputType="textPassword"
+        android:hint="Password must be at least 6 characters"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/pro"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green1"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/inBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="35.dp"
+        android:layout_marginTop="30.dp"
+        android:layout_marginEnd="35.dp"
+        android:backgroundTint="@color/green1"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="sign in"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="30.dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="New member? "/>
+
+        <TextView
+            android:id="@+id/upTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/green2"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:text=" Sign up"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+
+</LinearLayout>

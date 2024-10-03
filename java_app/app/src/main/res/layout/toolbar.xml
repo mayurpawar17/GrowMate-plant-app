@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:elevation="10.dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50.dp"
+            android:layout_height="50.dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/pllogo" />
+
+        <ImageView
+            android:id="@+id/logout_btn"
+            android:layout_width="25.dp"
+            android:layout_marginStart="250dp"
+            android:layout_height="25.dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logout" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
