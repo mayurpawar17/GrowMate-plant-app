@@ -1,20 +1,35 @@
 # GrowMate Plant App
 
 ## Description
-GrowMate is an Android application designed to assist plant enthusiasts in managing and taking care of their plants. The app features user authentication via Firebase for a personalized experience, with tools such as plant tracking, watering reminders, and plant care tips.
+GrowMate is an Android application designed to assist plant enthusiasts in managing and taking care of their plants. The app features user authentication via Firebase for a personalized experience.
 
 ## Features
 - **User Authentication**: Secure login and signup using Firebase Authentication.
-- **Plant Tracker**: Monitor the health and growth of your plants.
-- **Watering Reminders**: Get notified when it's time to water your plants.
 - **Plant Care Tips**: Discover useful tips on how to take care of your plants.
-- **Weather Updates**: Integrated weather updates to tailor your plant care routine.
+
 
 ## Screenshots
-![Login Screen](path_to_image)
-![Plant Tracker](path_to_image)
 
+| Splash Screen |  Welcome Screen | Login Screen | Signup Screen | Main Screen |
+| ------------- | ------------ | ------------- | ----------- |
+| ![Splash Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SplashScreen.png) | ![Welcome Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/WelcomScreen.png) | ![Login Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/LoginScreen.png) | ![Signup Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SignUp.png) | ![Main Screen](https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/Main%20Screen.png) |
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/growmate-plant-app.git
+2. Open the project in Android Studio.
+3. Sync the gradle and run the project on your emulator or physical device.
+
+##Technologies Used
+- Java
+- XML for UI design
+- Firebase Authentication for login and signup
+Retrofit for API integration
+
+##Prerequisites
+Android SDK 21 or higher
+Firebase account for authentication setup
+
+
+Contact
+For questions or feedback, reach out at mayurpawar4908@gmail.com.
