@@ -10,11 +10,11 @@ GrowMate is an Android application designed to assist plant enthusiasts in manag
 
 ## Screenshots
 
- <img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SplashScreen.png" alt="Splash Screen" width="300"/> 
-<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/WelcomScreen.png" alt="Welcome Screen" width="300"/> 
-<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/LoginScreen.png" alt="Login Screen" width="300"/> 
-<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SignUp.png" alt="Signup Screen" width="300"/> 
-<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/Main%20Screen.png" alt="Main Screen" width="300"/> 
+| <img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SplashScreen.png" alt="Splash Screen" width="300"/> |
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/WelcomScreen.png" alt="Welcome Screen" width="300"/> |
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/LoginScreen.png" alt="Login Screen" width="300"/> |
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/SignUp.png" alt="Signup Screen" width="300"/> |
+<img src="https://github.com/mayurpawar17/GrowMate-plant-app/blob/main/java_app/GrowMate%20app%20Screenshots/Main%20Screen.png" alt="Main Screen" width="300"/> |
 
 ## Installation
 1. Clone the repository:
